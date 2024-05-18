@@ -1,3 +1,4 @@
+import SpoiImage from '../assets/bg.png'
 import { FaTelegram } from "react-icons/fa";
 import React from "react";
 import MagicButton from "./ui/MagicButton";
@@ -9,7 +10,7 @@ function Hero() {
         <div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] -z-10"></div>
         <div className="max-w-[100%] mx-auto text-center pt-[60px] bg-gradient-to-b from-transparent to-[#060726] -z-10 h-[100%]">
           <div className="absolute top-0 left-0 -z-10 w-[1600px]">
-            <img src="/src/assets/bg.png" />
+            <img src={SpoiImage} />
           </div>
           <div>
             <p className="text-white/55 text-xs font-semibold">
