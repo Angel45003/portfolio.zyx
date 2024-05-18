@@ -1,2 +1,4 @@
-# portfolio.zyx
-My Portfolio :) (UPDATE 2024)
+# My Portfolio, New Uptdate ( 2024 )
+
+>![Imporant]
+>Creado en Reactjs + TailwindCSS
