@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  margin: 0;
+  padding:0;
+  background-color: #060726;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  animation: open 1s forwards;
+}
+
+
+@keyframes open {
+  from{
+    transform: translateY(-60px);
+    opacity: 0;
+  }
+
+  to{
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}
