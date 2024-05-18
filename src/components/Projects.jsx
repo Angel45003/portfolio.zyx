@@ -1,3 +1,5 @@
+import P1 from "../assets/projects/p1.png";
+import P2 from "../assets/projects/p2.png";
 import React from "react";
 import CardProjects from "./ui/CardProjects";
 
@@ -9,14 +11,14 @@ function Projects() {
       </h1>
       <div className="grid md:grid-cols-2 gap-12 w-[60%] mx-auto">
         <CardProjects
-          Image="src/assets/projects/p1.png"
+          Image={P1}
           Title="CodePen"
           Description="Este es un Clon de Codepen, sencillo y comodo"
           isReact="false"
           HrefLink="https://github.com/Angel45003/nieto.link"
         />
         <CardProjects
-          Image="src/assets/projects/p2.png"
+          Image={P2}
           Title="Disney+"
           Description="Este es un Clon (FrontEnd) de Disney+"
           isReact="true"
